@@ -81,7 +81,7 @@ def main():
 	client = Client()
 	# Call goal_input() method to request
 	client.goal_input()
-	# Keeps the communucation with the ROS network open
+	# Keep the communication with the ROS network open
 	rospy.spin()
 
 if __name__ == '__main__':
