@@ -13,9 +13,9 @@ from assignment_2_2023.msg import Position
 class Client:
 
     def __init__(self):
-        # Initialize variable 'pos' to be published as robot position
+        # Initialize variable 'position' to be published as robot position
         self.position = None
-        # Initialize variable 'l_vel' to be published as robot linear velocity
+        # Initialize variable 'linear_vel' to be published as robot linear velocity
         self.linear_vel = None
         # Initialize a publisher /position for position
         self.position_pub = rospy.Publisher('/position', assignment_2_2023.msg.Position, queue_size = 1)
